@@ -42,3 +42,9 @@ failure as blocking, not a note to fix later:
 - `cargo test` — existing tests must stay green; add tests for new behavior.
 - `cargo build` — must compile without warnings.
 
+## Commits & pushes
+
+Never create a git commit or push in this repo. Leave the working tree with
+staged or unstaged changes and let the human review the diff, write the
+commit message, and push themselves.
+
